@@ -45,7 +45,7 @@ Prereq.
 - 3.7) Right click "Set as Startup project"
 4) Add a reference to the vs project containing your WebAPI
 - 4.1) Rebuild the solution
-5) Add a nuget reference to "Inuvano.Labs.Azure.Functions.WebApiProxy"
+5) Add a nuget reference to "Inuvano.Labs.Azure.Functions.WebApiProxy" https://www.nuget.org/packages/Inuvano.Labs.Azure.Functions.WebApiProxy/
 6) Visual Studio should run the T4 template (if not see Troubleshooting notes below)
 7) The T4 template will create auto generated code files which map to your WebAPI routes
 8) Start the Azure Storage Emulator (local storage is required) https://docs.microsoft.com/en-us/azure/storage/storage-use-emulator
@@ -81,3 +81,10 @@ Troubleshooting
 --------------------
 
 - Ocassionally Visual Studio may throw an exception when running the T4 template, this can be resolved by rebuilding the project/solution and/or restarting visual studio - this will be looked into resolving in future releases
+
+Roadmap
+----------------------
+
+- Publish code
+- Documentation on using Bindings and tutorial
+- Video tutorial on getting started
